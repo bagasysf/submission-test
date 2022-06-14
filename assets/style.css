@@ -1,0 +1,106 @@
+@media only screen and (max-width: 600px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .nav-brand {
+    padding: 2rem 0 2rem 0;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+
+  .nav-brand span {
+    font-weight: 300;
+    opacity: 0.3;
+  }
+
+  .nav-link {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 1rem 0;
+  }
+
+  .nav-link li {
+    padding: 0 1rem 0 1rem;
+  }
+
+  main {
+    padding: 1rem;
+    text-align: justify;
+  }
+
+  #sejarah,
+  #geografis,
+  #wisata {
+    padding: 1.5rem 1rem 1.5rem 1rem;
+    margin: 1rem 0 0 0;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+  }
+
+  #sejarah p,
+  #geografis p,
+  #wisata p {
+    padding: 1rem 0 0 0;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0 1rem 0;
+  }
+
+  .nav-brand {
+    display: flex;
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+
+  .nav-brand span {
+    font-weight: 300;
+    opacity: 0.3;
+  }
+
+  .nav-link {
+    display: flex;
+    justify-contet: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-link li {
+    padding: 0 1rem 0 1rem;
+  }
+
+  main {
+    display: flex;
+    padding: 1rem;
+    text-align: justify;
+  }
+
+  #content {
+    flex-basis: 70%;
+  }
+
+  #sejarah,
+  #geografis,
+  #wisata {
+    padding: 1.5rem 1rem 1.5rem 1rem;
+    margin: 1rem 0 0 0;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+  }
+
+  #sejarah p,
+  #geografis p,
+  #wisata p {
+    padding: 1rem 0 0 0;
+  }
+}
